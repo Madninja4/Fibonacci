@@ -16,13 +16,5 @@ public class TestFibonacci {
 
 
     }
-    @Test
-    void testGetFibonacci2(){
-        ArrayList<Integer> correctList = new ArrayList(Arrays.asList(0, 1, 1, 2, 3, 5, 8, 13, 21, 34, 55, 89, 144));
-        Fibonacci fibonacci = new Fibonacci();
-        ArrayList<Integer> resultList = fibonacci.getFibonacci(13);
-        assertEquals(resultList,correctList);
-
-
-    }
+    
 }
